@@ -2,7 +2,7 @@
 
 string userName = Console.ReadLine();
 
-if (userName == "John")
+if (userName.ToLower() == "john")
 {
 	Console.WriteLine("Hey, it is John! Finally!");
 }
